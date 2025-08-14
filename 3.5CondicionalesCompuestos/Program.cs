@@ -14,9 +14,9 @@ namespace _3._5CondicionalesCompuestos
             Console.WriteLine("Ingrese el nombre");
             nombre = Console.ReadLine();
             Console.WriteLine("Ingrese el sueldo");
-            sueldo=Int32.Parse(Console.ReadLine());//tambien sirve Convert.ToInt32(Console.ReadLine());
+            sueldo = Int32.Parse(Console.ReadLine());//tambien sirve Convert.ToInt32(Console.ReadLine());
 
-            if (sueldo>=3000)
+            if (sueldo >= 3000)
             {
                 //verdadera
                 Console.WriteLine($"La persona {nombre}, debe abonar impuestos");
@@ -31,7 +31,7 @@ namespace _3._5CondicionalesCompuestos
 
             int edad = 0;
             Console.WriteLine("Ingrese su edad");
-            edad=Convert.ToInt32(Console.ReadLine());
+            edad = Convert.ToInt32(Console.ReadLine());
 
             if (edad >= 18)
             {
@@ -48,9 +48,9 @@ namespace _3._5CondicionalesCompuestos
             float numero2 = 0;
 
             Console.WriteLine("Ingrese el primer numero");
-            numero1=Convert.ToInt32(Console.ReadLine());
+            numero1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese el segundo numero");
-            numero2=Convert.ToInt32(Console.ReadLine());
+            numero2 = Convert.ToInt32(Console.ReadLine());
 
             if (numero1 > numero2)
             {
@@ -63,6 +63,21 @@ namespace _3._5CondicionalesCompuestos
                 Console.WriteLine($"La divicion entre el primer numero y el segundo es {numero1 / numero2}");
             }
 
+            int numeroDeNoches = 0;
+            int precioPorNoche = 200;
+
+            Console.WriteLine("Cuantas noches desa hospedarse");
+            numeroDeNoches=Int32.Parse(Console.ReadLine());
+            
+
+            if(numeroDeNoches > 3)
+            {
+                Console.WriteLine($"Usted obtendra un descuento del 17%, por lo tanto el total de la cuenta es {numeroDeNoches * precioPorNoche*0.17} dolares");
+            }
+            else
+            {
+                Console.WriteLine($"Usted obtendra un descuento del 2%, por lo tanto el total de la cuenta es {numeroDeNoches*precioPorNoche*0.02}");
+            }
 
         }
     }
