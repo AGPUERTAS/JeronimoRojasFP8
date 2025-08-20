@@ -65,6 +65,8 @@ namespace _3._5CondicionalesCompuestos
 
             int numeroDeNoches = 0;
             int precioPorNoche = 200;
+            int totalPagar = 0;
+            int descuento = 0;
 
             Console.WriteLine("Cuantas noches desa hospedarse");
             numeroDeNoches=Int32.Parse(Console.ReadLine());
