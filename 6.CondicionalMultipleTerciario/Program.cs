@@ -85,6 +85,43 @@ namespace _6.CondicionalMultipleTerciario
                     Console.WriteLine("Ingrese una operacion valida");
                     break;
             }
+
+            /*Diseñar un algoritmo que solicite al usuario un número del 1 al 12, correspondiente a un mes del año(1 para enero, 2 para febrero, etc.). El algoritmo debe mostrar en pantalla el nombre del mes seleccionado y la cantidad de días que contiene.*/
+
+            int nombreMes = 0;
+            char mes = ' ';
+
+            Console.WriteLine("Ingrese el mes que desa consultar:e:Enero, f:Febrero, m:Marzo, a:Abril, y:Mayo, j:Junio, u:Julio, g:Agosto, s:Septiembre, o:Octubre, n:Noviembre, d:Diciembre");
+            mes = Convert.ToChar(Console.ReadLine());
+
+            switch (mes)
+            {
+                case 'e':
+                    Console.WriteLine($"El mes seloccionado es Enero, el cual contiene 31 días");
+                    break;
+                case 'f':
+                    break;
+                case 'm':
+                    break;
+                case 'a':
+                    break;
+                case 'y':
+                    break;
+                case 'j':
+                    break;
+                case 'u':
+                    break;
+                case 'g':
+                    break;
+                case 's':
+                    break;
+                case 'o':
+                    break;
+                case 'n':
+                    break;
+                case 'd':
+                    break;
+            }
         }
     }
 }
