@@ -6,7 +6,7 @@
         {
             //Declaracion de matrices
             int[,] numeros = new int[2, 2];
-            string[,] nombres= new string[2, 3];//rango=6 posiciones
+            string[,] nombres= new string[2, 3];//rango = 6 posiciones
             
 
             //Asignacion de datos

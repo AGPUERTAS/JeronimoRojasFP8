@@ -8,7 +8,7 @@
              pantalla la suma de los elementos de cada columna.*/
 
 
-            /*int[,] numeros = new int[4, 4];
+            int[,] numeros = new int[4, 4];
             int[] SumaColumnas = new int[numeros.GetLength(1)];
 
             //Recorrer la matriz para llenarlla
@@ -48,14 +48,14 @@
             for( int i = 0; i<SumaColumnas.Length; i++)
             {
                 Console.Write($"{SumaColumnas[i]}  |");
-            }*/
+            }
 
             /*2.Desarrollar un programa que crea una matriz de n filas* m columnas, el usuario ingresa
               caracteres en cada posición de la matriz hasta llenarla. El programa debe intercambiar la
               primera fila con la última fila de la matriz. Al final se debe imprimir la matriz original, y la
               matriz con el intercambio de filas.*/
 
-            string[,] caracteres = new string[4, 4];
+            /*string[,] caracteres = new string[4, 4];
 
             for(int i = 0; i<caracteres.GetLength(1); i++)
             {
@@ -70,9 +70,9 @@
             {
                 for(int j=0; j < caracteres.GetLength(0); j++)
                 {
-                    
-                }
-            }
+                        
+                }*/
+            
         }
         
     }
